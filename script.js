@@ -310,9 +310,9 @@ async function loadAndRenderEvents() {
                 <div class="event-card ${isPast ? 'past' : ''}" aria-label="${escapeHtml(event.title)} - ${dateString}">
                     ${isPast ? '<div class="event-badge past">종료된 이벤트</div>' : ''}
                     <div class="event-date-badge" aria-label="${dateString}">
-                        <div class="event-date-badge-year">${year}</div>
+                        <div class="event-date-badge-year">${year}년</div>
                         <div class="event-date-badge-month">${month}</div>
-                        <div class="event-date-badge-day">${day}</div>
+                        <div class="event-date-badge-day">${day}일</div>
                     </div>
                     <div class="event-content">
                         <h3 class="event-title">${escapeHtml(event.title)}</h3>
