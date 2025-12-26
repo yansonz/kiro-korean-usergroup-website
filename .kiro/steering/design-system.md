@@ -7,19 +7,6 @@ inclusion: always
    Learn about inclusion modes: https://kiro.dev/docs/steering/#inclusion-modes
 -------------------------------------------------------------------------------------> 
 
----
-inclusion: always
----
-<!------------------------------------------------------------------------------------
-   Add rules to this file or a short description and have Kiro refine them for you.
-   
-   Learn about inclusion modes: https://kiro.dev/docs/steering/#inclusion-modes
--------------------------------------------------------------------------------------> 
-
----
-inclusion: manual
----
-
 # 디자인 시스템 가이드
 
 이 문서는 모든 웹 프로젝트에서 일관된 UI/UX 품질을 유지하기 위한 공통 디자인 시스템입니다.
